@@ -1,0 +1,37 @@
+body {
+  padding-top: 5vw;
+  background-color: #71A2B6;
+}
+
+h1 {
+  text-align: center;
+  padding: 0px 0px 50px 0px;
+  font-size: 40px;
+}
+
+section {
+  width: 50%;
+  border-style: solid;
+  border-radius: 30px;
+  background-color: #E8DAB2;
+  margin: 0 auto;
+  padding: 15px 30px 25px 30px;
+  font-family: 'Abhaya Libre', serif;
+  font-size: 24px
+}
+/*button {*/
+/*  margin: 25px auto;;*/
+/*}*/
+
+#auth {
+  float: left;
+}
+#tweet {
+  position: relative;
+    bottom: 10px;
+  float: right;
+    color: white;
+}
+#auth {
+  text-style: bold;
+}
