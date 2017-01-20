@@ -3,7 +3,7 @@ $(document).ready(function() {
     var newquote = "test";
 
     function genQuote() {
-            $.getJSON("http://quotes.stormconsultancy.co.uk/random.json?callback=?", function(data) {
+            $.getJSON("https://crossorigin.me/http://quotes.stormconsultancy.co.uk/random.json?callback=?", function(data) {
             newquote = data.quote;
             $("#phrase").text(newquote);
             $("#auth").text(data.author);
