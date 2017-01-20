@@ -15,8 +15,6 @@ $(document).ready(function() {
     genQuote();
   });
 
-  /*$("#tweet").on("click", function() {
-    window.open("https://www.twitter.com/share?text=" + newquote + "&url=https://goo.gl/n2xwuo");
-  });*/
+ 
     genQuote();
 });
