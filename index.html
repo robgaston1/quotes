@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="main.css" type="text/css">
@@ -18,30 +17,20 @@
 
 </head>
 <body>
-    <h1>Fun Technology Quotes!</h1>
-        <section id="quotebox">
-            <p id="phrase">Click the button below to get a quote!</p>
-            <p id="auth">Author Here</p>
-            <div id="tweet"></div>
-        </section>
-      <button id="refresh" type="button" class="btn btn-success center-block">New Quote Please!</button>
-      
-      
-<script>window.twttr = (function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0],
-    t = window.twttr || {};
-  if (d.getElementById(id)) return t;
-  js = d.createElement(s);
-  js.id = id;
-  js.src = "https://platform.twitter.com/widgets.js";
-  fjs.parentNode.insertBefore(js, fjs);
-
-  t._e = [];
-  t.ready = function(f) {
-    t._e.push(f);
-  };
-
-  return t;
-}(document, "script", "twitter-wjs"));</script>
+    <div class="container">
+        <h1>Fun Technology Quotes!</h1>
+        <div id="quotebox">
+                <p id="phrase">Click the button below to get a quote!</p>
+                <p id="auth">Author Here</p>
+                <div id="tweet"></div>
+        </div>
+        <div id="buttonArea">
+            <button id="refresh" type="button" class="btn">New Quote Please!</button>
+        </div>
+        
+    </div>
+    <div>
+        <a href="https://stormconsultancy.co.uk/" alt="link to Storm Consultancy" target="blank"><p>Quote database courtesy of Storm Consultancy</p></a>
+    </div>
 </body>
 </html>
